@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <div class="title-container">
+            <h1 class="header-title">Etch-a-Sketch</h1>
+            <button id="change-dimension-button">Change size</button><br>
+            <div class="color-settings-container" id="color-settings-container">
+                <div class="mb-1">Choose color settings</div>
+                <input type="radio"id="assorted" name="color-settings" value="assorted" checked="true">
+                <label for="assorted">Assorted</label><br>
+                <input type="radio" id="color-pick" name="color-settings" value="black">
+                <label for="color-pick">Color pick</label>
+            </div>
+            <h1>NOTE</h1>
+            <p><em>Subsequent hover on the grid items<br/> 
+                will darken the color and will stop<br/>
+                once the color is black. :)</em>
+            </p>
+        </div>
+        <div class="grid-container">
+            <div id="grid">
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
